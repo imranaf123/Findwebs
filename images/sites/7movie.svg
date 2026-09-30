@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="7Movies logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="url(#g)"/>
+  <!-- bold "7" -->
+  <path fill="#FFFFFF" d="M134 118 h252 a14 14 0 0 1 14 14 v24 a14 14 0 0 1 -14 14 h-252 a14 14 0 0 1 -14 -14 v-24 a14 14 0 0 1 14 -14 z M320 170 h80 l-128 250 h-80 z"/>
+  <!-- play button fused to the foot of the 7 -->
+  <path fill="#FFFFFF" d="M292 330 L388 396 L292 462 Z"/>
+</svg>
