@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "entertainment",
+    "name": "Entertainment",
+    "description": "Streaming, video, music, games, and things to enjoy.",
+    "tint": 1,
+    "icon": "play-circle"
+  },
+  {
+    "slug": "ai-tools",
+    "name": "AI & Tools",
+    "description": "Discover useful AI websites, platforms, and tools.",
+    "tint": 2,
+    "icon": "sparkles"
+  },
+  {
+    "slug": "education",
+    "name": "Books / Education",
+    "description": "Books, online courses, learning platforms, and educational resources.",
+    "tint": 3,
+    "icon": "graduation-cap"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "description": "Tools and apps to plan, organize, and get more done.",
+    "tint": 4,
+    "icon": "list-checks"
+  },
+  {
+    "slug": "design",
+    "name": "Design",
+    "description": "Design tools, inspiration, and creative resources.",
+    "tint": 3,
+    "icon": "pen-tool"
+  },
+  {
+    "slug": "development",
+    "name": "Development",
+    "description": "Code hosting, developer tools, and technical resources.",
+    "tint": 4,
+    "icon": "code"
+  }
+]

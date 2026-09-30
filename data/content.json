@@ -1,0 +1,230 @@
+{
+  "hero": {
+    "eyebrow": "Curated website directory",
+    "titleParts": {
+      "before": "Discover useful ",
+      "after": " across the internet."
+    },
+    "typing": {
+      "enabled": true,
+      "words": [
+        "websites",
+        "tools",
+        "resources",
+        "platforms",
+        "apps",
+        "communities"
+      ],
+      "typeSpeedMs": 65,
+      "deleteSpeedMs": 32,
+      "holdMs": 1600,
+      "gapMs": 300,
+      "loop": true
+    },
+    "subtitle": "Search, explore, and discover useful tools, resources, and online platforms.",
+    "search": {
+      "placeholder": "Search websites, tools, and resources...",
+      "animatedPlaceholder": {
+        "enabled": true,
+        "phrases": [
+          "Search AI tools…",
+          "Find design resources…",
+          "Look up learning platforms…",
+          "Search websites, tools, and resources…"
+        ]
+      },
+      "shortcutHint": "/"
+    },
+    "popularLabel": "Popular searches",
+    "facts": {
+      "enabled": true,
+      "minSites": 10,
+      "template": "{sites} websites · {categories} categories · Updated {updated}"
+    },
+    "highlights": {
+      "enabled": true,
+      "items": [
+        {
+          "icon": "layers",
+          "text": "Browse by category"
+        },
+        {
+          "icon": "search",
+          "text": "Instant search"
+        },
+        {
+          "icon": "external-link",
+          "text": "Free to explore"
+        }
+      ]
+    }
+  },
+  "homepage": {
+    "sections": [
+      {
+        "type": "ad",
+        "slot": "top"
+      },
+      {
+        "type": "hero"
+      },
+      {
+        "type": "categories",
+        "enabled": true,
+        "title": "Explore Categories",
+        "subtitle": "Find websites by what you're looking for.",
+        "viewAll": {
+          "label": "View all",
+          "href": "browse.html?view=categories"
+        }
+      },
+      {
+        "type": "featured",
+        "enabled": true,
+        "title": "Featured Websites",
+        "subtitle": "Useful websites worth exploring.",
+        "count": 8,
+        "viewAll": {
+          "label": "View all",
+          "href": "browse.html"
+        }
+      },
+      {
+        "type": "ad",
+        "slot": "mid"
+      },
+      {
+        "type": "recent",
+        "enabled": true,
+        "title": "Recently Added",
+        "subtitle": "Discover websites recently added to Findwebs.",
+        "count": 4,
+        "viewAll": {
+          "label": "View all",
+          "href": "browse.html?sort=newest"
+        }
+      },
+      {
+        "type": "trending",
+        "enabled": true,
+        "title": "Trending Websites",
+        "subtitle": "Popular and trending websites right now.",
+        "count": 6
+      },
+      {
+        "type": "cta",
+        "enabled": true,
+        "label": "Explore All Websites",
+        "href": "browse.html"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "label": "Explore",
+      "href": "browse.html"
+    },
+    {
+      "label": "Categories",
+      "href": "browse.html?view=categories"
+    }
+  ],
+  "mobileMenu": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Explore",
+      "href": "browse.html"
+    },
+    {
+      "label": "Categories",
+      "href": "browse.html?view=categories"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    },
+    {
+      "label": "Contact",
+      "href": "about.html?p=contact"
+    }
+  ],
+  "footer": {
+    "tagline": "Discover useful websites across the internet.",
+    "links": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Explore",
+        "href": "browse.html"
+      },
+      {
+        "label": "Categories",
+        "href": "browse.html?view=categories"
+      },
+      {
+        "label": "About",
+        "href": "about.html"
+      },
+      {
+        "label": "Contact",
+        "href": "about.html?p=contact"
+      },
+      {
+        "label": "Privacy",
+        "href": "about.html?p=privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "about.html?p=terms"
+      }
+    ],
+    "note": "Built for discovery.",
+    "copyright": "© {year} {siteName}. All rights reserved."
+  },
+  "ui": {
+    "visitWebsite": "Visit Website",
+    "leaveNotice": "You'll leave Findwebs to open this website.",
+    "relatedTitle": "Related websites",
+    "relatedSubtitle": "More websites in the same category.",
+    "showMore": "Show more",
+    "filterPlaceholder": "Filter websites…",
+    "noResultsTitle": "No websites found.",
+    "noResultsHint": "Try another search or browse categories.",
+    "loadError": "Couldn't load the directory. Please refresh to try again.",
+    "sitesCount": {
+      "one": "{n} site",
+      "other": "{n} sites"
+    },
+    "websitesCount": {
+      "one": "{n} website",
+      "other": "{n} websites"
+    },
+    "jsNotice": "Enable JavaScript to browse the directory.",
+    "enterNote": "Enter opens the website, Escape closes this list."
+  },
+  "pages": {
+    "explore": {
+      "title": "Explore Websites",
+      "subtitle": "Search and browse every website in Findwebs."
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Find websites by what you're looking for."
+    },
+    "search": {
+      "title": "Results for “{q}”",
+      "subtitle": "Matching names, descriptions, tags, and categories."
+    },
+    "site": {
+      "eyebrow": "Website information"
+    },
+    "about": {
+      "title": "About Findwebs"
+    }
+  }
+}

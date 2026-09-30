@@ -1,0 +1,94 @@
+{
+  "siteName": "Findwebs",
+  "tagline": "Discover useful websites across the internet.",
+  "siteUrl": "https://example.com/",
+  "logo": {
+    "mark": "images/logo-mark.svg",
+    "alt": "Findwebs",
+    "wordmark": {
+      "parts": [
+        "Find",
+        "webs"
+      ]
+    }
+  },
+  "favicon": "images/favicon.svg",
+  "theme": {
+    "default": "system",
+    "accent": "#2563EB",
+    "accentDark": "#5B8CFF"
+  },
+  "contactEmail": "hello@example.com",
+  "copyrightYear": 2026,
+  "newMaxAgeDays": null,
+  "externalLinkRel": "noopener noreferrer",
+  "homepage": {
+    "featuredCount": 8,
+    "recentCount": 4,
+    "trendingCount": 6
+  },
+  "pagination": {
+    "itemsPerPage": 12
+  },
+  "popularSearches": [
+    {
+      "label": "AI Tools",
+      "category": "ai-tools"
+    },
+    {
+      "label": "Design",
+      "category": "design"
+    },
+    {
+      "label": "Books / Education",
+      "category": "education"
+    },
+    {
+      "label": "Productivity",
+      "category": "productivity"
+    },
+    {
+      "label": "Development",
+      "category": "development"
+    },
+    {
+      "label": "Photo Editing",
+      "query": "photo"
+    }
+  ],
+  "badges": {
+    "NEW": {
+      "label": "New",
+      "style": "accent"
+    },
+    "POPULAR": {
+      "label": "Popular",
+      "style": "warning"
+    },
+    "FEATURED": {
+      "label": "Featured",
+      "style": "neutral"
+    },
+    "EDITOR'S CHOICE": {
+      "label": "Editor's Choice",
+      "style": "success"
+    }
+  },
+  "ads": {
+    "enabled": true,
+    "showPlaceholderText": false,
+    "slots": {
+      "top": {
+        "mode": "reserved",
+        "html": ""
+      },
+      "mid": {
+        "mode": "reserved",
+        "html": ""
+      }
+    }
+  },
+  "logos": {
+    "faviconFallback": false
+  }
+}

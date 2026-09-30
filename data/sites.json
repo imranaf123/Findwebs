@@ -1,0 +1,650 @@
+[
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "description": "AI chat assistant for questions, writing, coding, and brainstorming.",
+    "longDescription": "ChatGPT is a conversational AI assistant that answers questions, drafts and edits writing, explains topics, and helps with coding.\n\nIt supports follow-up questions and can be used for brainstorming, summarizing, translating, and planning. A free tier is available, with a paid plan for heavier use.",
+    "logo": "",
+    "category": "ai-tools",
+    "tags": [
+      "ai",
+      "chat",
+      "assistant"
+    ],
+    "new": false,
+    "dateAdded": "2025-06-10",
+    "badge": "POPULAR",
+    "featured": false,
+    "trending": true,
+    "priority": 2,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "description": "Generative AI for creating images from text prompts.",
+    "longDescription": "",
+    "logo": "",
+    "category": "ai-tools",
+    "tags": [
+      "ai",
+      "images",
+      "generative"
+    ],
+    "new": true,
+    "dateAdded": "2026-09-15",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Subscription"
+      }
+    ]
+  },
+  {
+    "slug": "coursera",
+    "name": "Coursera",
+    "url": "https://www.coursera.org",
+    "description": "University courses, professional certificates, and online degrees.",
+    "longDescription": "Coursera partners with universities and companies to offer online courses, guided projects, and degree programs.\n\nCourses range from introductory material to advanced topics, with many available for free to audit.",
+    "logo": "",
+    "category": "education",
+    "tags": [
+      "courses",
+      "learning",
+      "certificates"
+    ],
+    "new": false,
+    "dateAdded": "2025-03-05",
+    "badge": "",
+    "featured": true,
+    "trending": false,
+    "priority": 1,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free to audit (paid certificates)"
+      }
+    ]
+  },
+  {
+    "slug": "khan-academy",
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "description": "Free lessons and practice in math, science, and more for everyone.",
+    "longDescription": "Khan Academy offers free, adaptive learning across math, science, economics, and test prep.\n\nIts practice system tracks progress and focuses on the topics you need the most help with.",
+    "logo": "",
+    "category": "education",
+    "tags": [
+      "learning",
+      "math",
+      "free"
+    ],
+    "new": false,
+    "dateAdded": "2025-02-14",
+    "badge": "EDITOR'S CHOICE",
+    "featured": false,
+    "trending": true,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free"
+      }
+    ]
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "description": "All-in-one workspace for notes, docs, wikis, and project tracking.",
+    "longDescription": "Notion is a flexible workspace that combines notes, documents, wikis, and databases.\n\nUse it for personal notes, meeting notes, project trackers, or team wikis — blocks and templates let you shape each page however you like.",
+    "logo": "",
+    "category": "productivity",
+    "tags": [
+      "notes",
+      "docs",
+      "workspace"
+    ],
+    "new": false,
+    "dateAdded": "2025-04-22",
+    "badge": "FEATURED",
+    "featured": true,
+    "trending": false,
+    "priority": 1,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "todoist",
+    "name": "Todoist",
+    "url": "https://todoist.com",
+    "description": "Simple, powerful task manager for personal and team to-dos.",
+    "longDescription": "",
+    "logo": "",
+    "category": "productivity",
+    "tags": [
+      "tasks",
+      "to-do",
+      "reminders"
+    ],
+    "new": false,
+    "dateAdded": "2025-05-01",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com",
+    "description": "Professional network for careers, hiring, and industry news.",
+    "longDescription": "",
+    "logo": "",
+    "category": "productivity",
+    "tags": [
+      "network",
+      "careers",
+      "hiring"
+    ],
+    "new": false,
+    "dateAdded": "2025-01-20",
+    "badge": "",
+    "featured": true,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (premium available)"
+      }
+    ]
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "url": "https://www.hubspot.com",
+    "description": "CRM and marketing software to grow and manage your business.",
+    "longDescription": "",
+    "logo": "",
+    "category": "productivity",
+    "tags": [
+      "crm",
+      "marketing",
+      "sales"
+    ],
+    "new": false,
+    "dateAdded": "2025-02-28",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "description": "Collaborative interface design and prototyping in the browser.",
+    "longDescription": "Figma is a collaborative design tool that runs in the browser.\n\nTeams design interfaces, build prototypes, and hand off specs in the same file. Version history, comments, and shared design systems keep projects in sync.",
+    "logo": "",
+    "category": "design",
+    "tags": [
+      "design",
+      "ui",
+      "prototyping"
+    ],
+    "new": false,
+    "dateAdded": "2025-03-18",
+    "badge": "FEATURED",
+    "featured": true,
+    "trending": false,
+    "priority": 2,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "description": "Easy graphic design and photo editing for posts, decks, and more.",
+    "longDescription": "",
+    "logo": "",
+    "category": "design",
+    "tags": [
+      "design",
+      "graphics",
+      "photo editing"
+    ],
+    "new": false,
+    "dateAdded": "2025-05-30",
+    "badge": "POPULAR",
+    "featured": false,
+    "trending": true,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "url": "https://github.com",
+    "description": "Code hosting, reviews, issues, and collaboration for developers.",
+    "longDescription": "GitHub is where developers host code, review pull requests, track issues, and automate workflows.\n\nIt is the central home for open-source projects and team development.",
+    "logo": "",
+    "category": "development",
+    "tags": [
+      "code",
+      "git",
+      "hosting"
+    ],
+    "new": false,
+    "dateAdded": "2025-01-08",
+    "badge": "EDITOR'S CHOICE",
+    "featured": true,
+    "trending": false,
+    "priority": 1,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  },
+  {
+    "slug": "stack-overflow",
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "description": "Q&A community where developers answer technical questions.",
+    "longDescription": "",
+    "logo": "",
+    "category": "development",
+    "tags": [
+      "code",
+      "q-and-a",
+      "help"
+    ],
+    "new": false,
+    "dateAdded": "2025-04-02",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free"
+      }
+    ]
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "url": "https://www.netflix.com",
+    "description": "Stream films, series, and documentaries on any screen.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "streaming",
+      "movies",
+      "tv"
+    ],
+    "new": false,
+    "dateAdded": "2025-06-12",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Subscription"
+      }
+    ]
+  },
+  {
+    "slug": "youtube",
+    "name": "YouTube",
+    "url": "https://www.youtube.com",
+    "description": "Watch and share video from creators around the world.",
+    "longDescription": "YouTube is the largest video platform in the world.\n\nIt covers everything from tutorials and documentaries to music and live events.",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "video",
+      "streaming",
+      "creators"
+    ],
+    "new": false,
+    "dateAdded": "2025-01-03",
+    "badge": "",
+    "featured": true,
+    "trending": false,
+    "priority": 2,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (premium available)"
+      }
+    ]
+  },
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "description": "Payments infrastructure for internet businesses.",
+    "longDescription": "",
+    "logo": "",
+    "category": "development",
+    "tags": [
+      "payments",
+      "billing",
+      "api"
+    ],
+    "new": false,
+    "dateAdded": "2025-02-10",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "No monthly fee (per transaction)"
+      }
+    ]
+  },
+  {
+    "slug": "ynab",
+    "name": "YNAB",
+    "url": "https://www.ynab.com",
+    "description": "Budgeting app built on a simple rule: give every dollar a job.",
+    "longDescription": "",
+    "logo": "",
+    "category": "productivity",
+    "tags": [
+      "budget",
+      "money",
+      "planning"
+    ],
+    "new": true,
+    "dateAdded": "2026-08-20",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Subscription (free trial)"
+      }
+    ]
+  },
+  {
+    "slug": "amazon",
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "description": "Online store for almost everything, from electronics to books.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "store",
+      "marketplace",
+      "retail"
+    ],
+    "new": false,
+    "dateAdded": "2025-01-15",
+    "badge": "POPULAR",
+    "featured": false,
+    "trending": true,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (optional Prime membership)"
+      }
+    ]
+  },
+  {
+    "slug": "etsy",
+    "name": "Etsy",
+    "url": "https://www.etsy.com",
+    "description": "Marketplace for handmade, vintage, and custom goods.",
+    "longDescription": "",
+    "logo": "",
+    "category": "design",
+    "tags": [
+      "handmade",
+      "marketplace",
+      "craft"
+    ],
+    "new": true,
+    "dateAdded": "2026-07-18",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free to browse"
+      }
+    ]
+  },
+  {
+    "slug": "x-twitter",
+    "name": "X (Twitter)",
+    "url": "https://x.com",
+    "description": "Post, follow, and discover public conversation in real time.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "social",
+      "news",
+      "community"
+    ],
+    "new": false,
+    "dateAdded": "2025-02-02",
+    "badge": "",
+    "featured": false,
+    "trending": true,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (premium available)"
+      }
+    ]
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "url": "https://www.reddit.com",
+    "description": "Forums and communities for almost every topic on the internet.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "community",
+      "forums",
+      "discussion"
+    ],
+    "new": false,
+    "dateAdded": "2025-03-25",
+    "badge": "",
+    "featured": false,
+    "trending": true,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free"
+      }
+    ]
+  },
+  {
+    "slug": "bbc-news",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "description": "World and UK news with video, audio, and live coverage.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "news",
+      "world",
+      "journalism"
+    ],
+    "new": false,
+    "dateAdded": "2025-01-28",
+    "badge": "EDITOR'S CHOICE",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free"
+      }
+    ]
+  },
+  {
+    "slug": "reuters",
+    "name": "Reuters",
+    "url": "https://www.reuters.com",
+    "description": "Global news, markets, and business reporting.",
+    "longDescription": "",
+    "logo": "",
+    "category": "entertainment",
+    "tags": [
+      "news",
+      "business",
+      "markets"
+    ],
+    "new": true,
+    "dateAdded": "2026-09-02",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (subscription content)"
+      }
+    ]
+  },
+  {
+    "slug": "google-translate",
+    "name": "Google Translate",
+    "url": "https://translate.google.com",
+    "description": "Translate text between 100+ languages instantly.",
+    "longDescription": "",
+    "logo": "",
+    "category": "ai-tools",
+    "tags": [
+      "translate",
+      "languages",
+      "text"
+    ],
+    "new": false,
+    "dateAdded": "2025-04-15",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free"
+      }
+    ]
+  },
+  {
+    "slug": "smallpdf",
+    "name": "SmallPDF",
+    "url": "https://smallpdf.com",
+    "description": "Online tools to merge, compress, and convert PDF files.",
+    "longDescription": "",
+    "logo": "",
+    "category": "ai-tools",
+    "tags": [
+      "pdf",
+      "convert",
+      "tools"
+    ],
+    "new": true,
+    "dateAdded": "2026-08-05",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [
+      {
+        "label": "Pricing",
+        "value": "Free (paid plans available)"
+      }
+    ]
+  }
+]
