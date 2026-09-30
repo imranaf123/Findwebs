@@ -324,9 +324,9 @@
     ]
   },
   {
-    "slug": "netflix",
-    "name": "Netflix",
-    "url": "https://www.netflix.com",
+    "slug": "cinezo",
+    "name": "Cinezo",
+    "url": "https://cinezo.st",
     "description": "Stream films, series, and documentaries on any screen.",
     "longDescription": "",
     "logo": "",
@@ -336,9 +336,9 @@
       "movies",
       "tv"
     ],
-    "new": false,
+    "new": true,
     "dateAdded": "2025-06-12",
-    "badge": "",
+    "badge": "new",
     "featured": false,
     "trending": false,
     "priority": 0,
@@ -346,7 +346,7 @@
     "info": [
       {
         "label": "Pricing",
-        "value": "Subscription"
+        "value": "Free"
       }
     ]
   },
