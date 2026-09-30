@@ -490,7 +490,10 @@
        box is the same size, so a broken image can never change card height. */
     var tintAttr = ' data-fw-tint="' + tintForSite(site) + '"';
     if (!site.logo) return '<span class="' + cls + tint + '" data-fw-logo>' + mono + '</span>';
-    return '<span class="' + cls + '" data-fw-logo' + tintAttr + '>' +
+    /* .has-logo hides the monogram underneath, so the fallback letter can
+       never render on top of a real image; logoFail() removes it when the
+       image fails, which reveals the monogram again. */
+    return '<span class="' + cls + ' has-logo" data-fw-logo' + tintAttr + '>' +
       '<img class="logo__img" src="' + esc(assetUrl(site.logo)) + '" loading="lazy" decoding="async" alt="" ' +
       'onerror="FW_LOGO_FAIL(this)">' +
       mono +
@@ -574,14 +577,22 @@
      The static HTML already carries the default sentence and placeholder, so
      a script-blocked or no-JS render still looks finished; this enhances it
      from data/content.json. */
-  function reserveWidth(span, words) {
-    if (!span || !span.offsetWidth) return;
+  /* Reserve the longest word's width on the .typed-group wrapper (word and
+     caret measured together), so the headline does not jitter while typing.
+     The group stays one atomic inline unit: it can still wrap to the next
+     line as a whole when the screen is narrow, and the caret can never be
+     separated from the word. Nothing is measured or reserved on the bare
+     .typed span, which would let the caret wrap onto its own line. */
+  function reserveWidth(group, words) {
+    if (!group || !words || !words.length || !group.offsetWidth) return;
+    var typed = group.querySelector('[data-typed]');
+    if (!typed) return;
     var longest = words.reduce(function (a, b) { return String(b).length > String(a).length ? b : a; }, words[0]);
-    var now = span.textContent;
-    span.textContent = longest;
-    var w = span.offsetWidth;
-    span.textContent = now;
-    if (w) span.style.minWidth = w + 'px';
+    var now = typed.textContent;
+    typed.textContent = longest;
+    var w = group.offsetWidth;
+    typed.textContent = now;
+    if (w) group.style.minWidth = w + 'px';
   }
 
   function initHeroContent() {
@@ -597,7 +608,7 @@
     var words = get('hero.typing.words') || ['websites'];
     var typing = get('hero.typing') || {};
     if (typed) {
-      reserveWidth(typed, words);
+      reserveWidth(typed.closest ? (typed.closest('.typed-group') || typed.parentNode) : typed.parentNode, words);
       typed.textContent = words[0];
     }
     if (title) {

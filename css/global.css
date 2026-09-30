@@ -834,9 +834,19 @@ body[data-page="home"] .header-search:not(.is-revealed) {
   letter-spacing: -0.025em;
 }
 
-.hero__title .typed {
+/*
+   The dynamically typed word and its caret are grouped in one atomic
+   inline element (.typed-group), so they always break lines together:
+   the caret can never be left alone on its own line, and the group can
+   still wrap to the next line as a whole on narrow screens. The heading
+   itself keeps wrapping naturally.
+*/
+.hero__title .typed-group {
   display: inline-block;
   white-space: nowrap;
+}
+
+.hero__title .typed {
   color: var(--accent);
 }
 
@@ -1419,7 +1429,7 @@ body[data-page="home"] .header-search:not(.is-revealed) {
   justify-content: center;
   width: 44px;
   height: 44px;
-  padding: 6px;
+  padding: 0;
   border-radius: 12px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1430,16 +1440,16 @@ body[data-page="home"] .header-search:not(.is-revealed) {
 .card--compact .logo {
   width: 36px;
   height: 36px;
-  padding: 5px;
+  padding: 0;
   border-radius: 10px;
 }
 
 /*
    The actual website logo.
 
-   contain is intentional:
-   logos with different aspect ratios are never
-   distorted or unnecessarily cropped.
+   cover makes the image fill the whole box (edge to edge, no inner
+   gap), while the container's overflow: hidden + border-radius keep
+   the rounded corners clean. object-position centers the crop.
 */
 
 .logo__img {
@@ -1448,15 +1458,16 @@ body[data-page="home"] .header-search:not(.is-revealed) {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
 /*
    Fallback monogram.
 
-   This is hidden whenever a real image exists.
-   If JavaScript removes a failed image, this
+   This is hidden whenever a real image exists (.has-logo is set on
+   the container by logoHTML, independent of markup order). If
+   JavaScript removes a failed image and the class with it, this
    selector stops matching and the letter appears.
 */
 
@@ -1472,7 +1483,7 @@ body[data-page="home"] .header-search:not(.is-revealed) {
   letter-spacing: -0.02em;
 }
 
-.logo__img + .logo__mono {
+.logo.has-logo .logo__mono {
   display: none;
 }
 
@@ -1502,15 +1513,12 @@ body[data-page="home"] .header-search:not(.is-revealed) {
 
 /*
    Large logo on the individual website page.
-
-   Reduced padding from 8px to 4px so the real
-   SVG gets more usable space inside the 64px box.
 */
 
 .logo--lg {
   width: 64px;
   height: 64px;
-  padding: 4px;
+  padding: 0;
   border-radius: 16px;
 }
 
