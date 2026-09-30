@@ -1,0 +1,9 @@
+# Findwebs — robots.txt
+User-agent: *
+Allow: /
+
+# Search results and sort permutations are noindex; keep them out of crawling.
+Disallow: /browse.html?q=
+Disallow: /*?sort=
+
+Sitemap: https://example.com/sitemap.xml

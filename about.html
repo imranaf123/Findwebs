@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Findwebs</title>
+  <meta name="description" content="What Findwebs is and how websites are chosen.">
+  <link rel="canonical" href="https://example.com/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Findwebs">
+  <meta property="og:title" content="About | Findwebs">
+  <meta property="og:description" content="What Findwebs is and how websites are chosen.">
+  <meta property="og:url" content="https://example.com/about.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About | Findwebs">
+  <meta name="twitter:description" content="What Findwebs is and how websites are chosen.">
+  <noscript>
+    <style>[data-doc] { display: block !important; }</style>
+    <div class="noscript-note">
+      <p>Enable JavaScript for the directory, header, and footer. All four documents on this page are shown above.</p>
+    </div>
+  </noscript>
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <script>
+    (function () {
+      var d = document.documentElement, t = null;
+      try { t = localStorage.getItem('findwebs-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      }
+      d.setAttribute('data-theme', t);
+      if (location.protocol === 'file:') {
+        d.setAttribute('data-webfont', 'off');
+      } else {
+        var l = document.createElement('link');
+        l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2';
+        l.crossOrigin = 'anonymous'; l.href = 'fonts/inter-tight-latin.woff2';
+        document.head.appendChild(l);
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="preload" as="fetch" href="data/settings.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/categories.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/sites.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/content.json" crossorigin>
+  <script src="js/app.js"></script>
+  <script src="js/pages.js"></script>
+  <script>window.FW.loadData('data/');</script>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="fw-header"></div>
+
+  <main id="main-content" class="container">
+
+    <!-- ============ about ============ -->
+    <article class="static-page" data-doc="about">
+      <h1>About Findwebs</h1>
+      <p>Findwebs is a directory of useful websites. It organizes practical tools, resources, and online platforms into clear categories so people can find them fast — without endless searching or ad-driven lists.</p>
+      <p>The idea is simple: every website listed here is one that is genuinely useful to a broad audience. Findwebs is a discovery product, not a blog, a store, or a service with accounts. Browse, search, and visit.</p>
+
+      <h2>How websites are chosen</h2>
+      <ul>
+        <li><strong>Useful first.</strong> A website is listed when it does a real job — creating, learning, organizing, paying, finding things — rather than existing for traffic.</li>
+        <li><strong>Stable and accessible.</strong> Sites should be reliable, publicly accessible, and not gated behind a forced account to be useful.</li>
+        <li><strong>Hand-reviewed.</strong> Listings are added and reviewed by the Findwebs editors. "Featured" and "Trending" are editorial choices, not calculated scores.</li>
+        <li><strong>Kept general-purpose.</strong> Findwebs covers many areas of life online and does not specialize in one industry.</li>
+      </ul>
+
+      <h2>What you can do here</h2>
+      <ul>
+        <li>Search the whole directory by name, tag, category, or keyword.</li>
+        <li>Browse every category, from entertainment and AI tools to books, productivity, design, and development.</li>
+        <li>Open the information page for any listed website, then visit the site itself.</li>
+      </ul>
+      <p>Have a useful website to suggest, or a listing to correct? <a href="about.html?p=contact">Get in touch</a>.</p>
+    </article>
+
+    <!-- ============ contact ============ -->
+    <article class="static-page" data-doc="contact" hidden>
+      <h2 class="static-page__title">Contact</h2>
+      <p>Questions, corrections, or a useful website you'd like to see listed? Email us and we'll take a look.</p>
+      <p>For website suggestions, please include the site name, its URL, and a sentence about what it does.</p>
+      <a class="btn btn--primary" href="mailto:hello@example.com"
+         data-contact-email data-contact-prefix="Email ">Email hello@example.com</a>
+    </article>
+
+    <!-- ============ privacy ============ -->
+    <article class="static-page" data-doc="privacy" hidden>
+      <h2 class="static-page__title">Privacy Policy</h2>
+      <p><em>Starter text — edit this policy for your situation and have it reviewed for your jurisdiction before publishing.</em></p>
+      <p>Findwebs is a directory of websites. This page describes the small amount of data the site itself uses.</p>
+
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>No accounts, no forms.</strong> Findwebs does not ask you to register or to submit personal information.</li>
+        <li><strong>Theme choice.</strong> If you switch between light and dark theme, that choice is stored in your browser's local storage. It stays on your device and can be cleared at any time.</li>
+        <li><strong>No tracking in this version.</strong> The current version of Findwebs does not set tracking cookies and does not run analytics scripts.</li>
+      </ul>
+
+      <h2>External links</h2>
+      <p>Findwebs links to third-party websites. When you visit a listed site, that site's own privacy policy applies. We do not control what those sites collect.</p>
+
+      <h2>Advertising</h2>
+      <p>If advertising is enabled on Findwebs, ad providers may use their own cookies or identifiers subject to their own policies.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent to <a href="mailto:hello@example.com" data-contact-email>hello@example.com</a>.</p>
+    </article>
+
+    <!-- ============ terms ============ -->
+    <article class="static-page" data-doc="terms" hidden>
+      <h2 class="static-page__title">Terms of Use</h2>
+      <p><em>Starter text — edit these terms for your situation and have them reviewed for your jurisdiction before publishing.</em></p>
+
+      <h2>Use of Findwebs</h2>
+      <p>Findwebs is a directory that points to other websites. You may use it to browse and search listings. You must not misuse the site, attempt to disrupt it, or scrape it at a scale that harms its operation.</p>
+
+      <h2>Third-party websites</h2>
+      <p>Listings link to sites operated by third parties. Findwebs does not operate those sites, does not guarantee their content or availability, and is not responsible for what happens after you leave Findwebs. Each third party's own terms and privacy policy apply to its site.</p>
+
+      <h2>Content</h2>
+      <p>Descriptions and organization of listings are provided by Findwebs. Brand names, logos, and trademarks belong to their respective owners and are used here only to identify the listed websites.</p>
+
+      <h2>No warranty</h2>
+      <p>Findwebs is provided "as is" without warranties of any kind. Listings may become outdated; if you find a broken or incorrect listing, please <a href="about.html?p=contact">let us know</a>.</p>
+
+      <h2>Changes</h2>
+      <p>These terms may be updated from time to time. Continued use of Findwebs after changes means you accept the updated terms.</p>
+    </article>
+
+  </main>
+
+  <div id="fw-footer"></div>
+
+  <!-- Icon sprite: inlined by tools/sync-sprite.js from images/icons.svg -->
+  <!-- fw:sprite:start -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <!-- Findwebs icon sprite — one outline set, 24px grid, 1.75 stroke,
+       currentColor, round caps and joins. Inlined into each page by
+       tools/sync-sprite.js. Add an icon here, then run that script. -->
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></g></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.8 8.8 0 1 0 11.1 11.1Z"/></g></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></g></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></g></symbol>
+  <symbol id="i-external-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14.5V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.5"/></g></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h14M13 6.5l5.5 5.5-5.5 5.5"/></g></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 5.5 16 12l-6.5 6.5"/></g></symbol>
+  <symbol id="i-slash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 9.5 19.5"/></g></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3.5 12.7 8.3 17.5 10l-4.8 1.7L11 16.5 9.3 11.7 4.5 10l4.8-1.7Z"/><path d="M18 15.2l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8Z"/></g></symbol>
+  <symbol id="i-graduation-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 5.2l9 4.3-9 4.3Z"/><path d="M7.2 11.6v4.6c0 1.4 2.1 2.5 4.8 2.5s4.8-1.1 4.8-2.5v-4.6"/><path d="M20.6 10.2v4.4"/></g></symbol>
+  <symbol id="i-list-checks" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m3 7 1.8 1.8L8.5 5"/><path d="m3 17 1.8 1.8L8.5 15"/><path d="M12.5 6.5h8.5M12.5 12h8.5M12.5 17.5h8.5"/></g></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.6A1.6 1.6 0 0 1 10.6 4h2.8A1.6 1.6 0 0 1 15 5.6V7"/><path d="M3 12.5h18"/></g></symbol>
+  <symbol id="i-pen-tool" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 18.5 6.5-6.5 3 3-6.5 6.5Z"/><path d="M18.5 12 17 4.6 2 2l2.6 15L12 18.5Z"/><path d="m2 2 7.6 7.6"/><circle cx="11.4" cy="11.4" r="1.9"/></g></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 17.5 20.5 12l-5-5.5"/><path d="M8.5 6.5 3.5 12l5 5.5"/></g></symbol>
+  <symbol id="i-play-circle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10.2 8.6 15.8 12l-5.6 3.4Z"/></g></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6.5" width="18" height="12.5" rx="2.5"/><path d="M3 10.5h18"/><path d="M16.2 14.8h1.3"/></g></symbol>
+  <symbol id="i-shopping-bag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3 3.5 6.6v12.9a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2V6.6L17.8 3Z"/><path d="M3.5 6.6h17"/><path d="M15.8 10a3.8 3.8 0 0 1-7.6 0"/></g></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 20.5v-1.8a4 4 0 0 0-4-4h-4a4 4 0 0 0-4 4v1.8"/><circle cx="9.5" cy="7.5" r="3.6"/><path d="M20.5 20.5v-1.8a4 4 0 0 0-3-3.9"/><path d="M15.5 4.1a4 4 0 0 1 0 6.9"/></g></symbol>
+  <symbol id="i-newspaper" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.2"/><path d="M7 9.2h5.5"/><path d="M7 12.8h10M7 16h7.5"/><path d="M16.5 9.2H17"/></g></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.9 6.6a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.6-3.6a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9Z"/></g></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3.5 7.5 12 12l8.5-4.5Z"/><path d="M4.8 12 12 15.8l7.2-3.8"/><path d="M4.8 16.4 12 20.2l7.2-3.8"/></g></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.8 2.5 5 5.5.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.5-.8Z"/></g></symbol>
+</svg>
+<!-- fw:sprite:end -->
+
+  <script>window.FW.ready(function () { window.FW.boot(); });</script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore Websites | Findwebs</title>
+  <meta name="description" content="Search and browse every website in the Findwebs directory. Filter by category or sort by relevance, A–Z, or newest.">
+  <link rel="canonical" href="https://example.com/browse.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Findwebs">
+  <meta property="og:title" content="Explore Websites | Findwebs">
+  <meta property="og:description" content="Search and browse every website in the Findwebs directory. Filter by category or sort by relevance, A–Z, or newest.">
+  <meta property="og:url" content="https://example.com/browse.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Explore Websites | Findwebs">
+  <meta name="twitter:description" content="Search and browse every website in the Findwebs directory. Filter by category or sort by relevance, A–Z, or newest.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <script>
+    (function () {
+      var d = document.documentElement, t = null;
+      try { t = localStorage.getItem('findwebs-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      }
+      d.setAttribute('data-theme', t);
+      if (location.protocol === 'file:') {
+        d.setAttribute('data-webfont', 'off');
+      } else {
+        var l = document.createElement('link');
+        l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2';
+        l.crossOrigin = 'anonymous'; l.href = 'fonts/inter-tight-latin.woff2';
+        document.head.appendChild(l);
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="preload" as="fetch" href="data/settings.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/categories.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/sites.json" crossorigin>
+  <link rel="preload" as="fetch" href="data/content.json" crossorigin>
+  <script src="js/app.js"></script>
+  <script src="js/pages.js"></script>
+  <script>window.FW.loadData('data/');</script>
+</head>
+<body data-page="browse">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="fw-header"></div>
+
+  <main id="main-content" class="container">
+    <div id="browse-shell" hidden>
+
+      <!-- One heading per page: every view below borrows it, so the document
+           always has exactly one h1 and the text comes from content.json. -->
+      <div class="page-head">
+        <nav class="breadcrumb" id="page-breadcrumb" aria-label="Breadcrumb" hidden></nav>
+        <h1 id="browse-title">Explore Websites</h1>
+        <p class="section__sub" id="browse-sub">Search and browse every website in Findwebs.</p>
+      </div>
+
+      <!-- ============ view: explore (default) ============ -->
+      <section data-view="explore" hidden>
+        <div class="explore-head">
+          <form class="search explore-search" role="search" action="browse.html" method="get" id="browse-search-form">
+            <label class="sr-only" for="page-search">Search websites</label>
+            <span class="search__icon" aria-hidden="true"><svg class="icon"><use href="#i-search"></use></svg></span>
+            <input id="page-search" class="search__input" type="search" name="q"
+              placeholder="Search websites, tools, and resources..." autocomplete="off">
+            <button class="search__submit" type="submit" aria-label="Search">
+              <svg class="icon"><use href="#i-search"></use></svg>
+            </button>
+          </form>
+          <div class="chips explore-chips" id="explore-chips" aria-label="Filter by category"></div>
+        </div>
+
+        <div class="toolbar toolbar--row explore-toolbar">
+          <span class="toolbar__count" id="result-count" aria-live="polite"></span>
+          <div>
+            <label class="sr-only" for="sort-select">Sort websites</label>
+            <select class="select" id="sort-select" name="sort">
+              <option value="">Recommended</option>
+              <option value="az">A–Z</option>
+              <option value="newest">Newest</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="card-grid" id="explore-grid"></div>
+
+        <div class="explore-more" id="explore-showmore-wrap" hidden>
+          <button class="btn" type="button" id="explore-showmore">Show more</button>
+        </div>
+      </section>
+
+      <!-- ============ view: categories index ============ -->
+      <section data-view="categories" hidden>
+        <div class="cat-grid" id="cat-index-grid"></div>
+      </section>
+
+      <!-- ============ view: one category ============ -->
+      <section data-view="category" hidden>
+        <div class="page-head cat-head" id="cat-head"></div>
+
+        <div class="cat-toolbar">
+          <form class="search" role="search" id="cat-filter-form">
+            <label class="sr-only" for="cat-filter">Filter websites in this category</label>
+            <span class="search__icon" aria-hidden="true"><svg class="icon"><use href="#i-search"></use></svg></span>
+            <input id="cat-filter" class="search__input" type="search" placeholder="Filter websites…" autocomplete="off">
+            <button class="search__submit" type="submit" aria-label="Filter">
+              <svg class="icon"><use href="#i-search"></use></svg>
+            </button>
+          </form>
+          <div>
+            <label class="sr-only" for="cat-sort">Sort websites</label>
+            <select class="select" id="cat-sort">
+              <option value="">Recommended</option>
+              <option value="az">A–Z</option>
+              <option value="newest">Newest</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="cat-grid"></div>
+
+        <div class="explore-more" id="cat-showmore-wrap" hidden>
+          <button class="btn" type="button" id="cat-showmore">Show more</button>
+        </div>
+      </section>
+
+      <!-- ============ view: not found ============ -->
+      <section data-view="notfound" hidden></section>
+
+    </div>
+  </main>
+
+  <div id="fw-footer"></div>
+
+  <noscript>
+    <div class="noscript-note">
+      <p>Enable JavaScript to browse the directory.</p>
+      <p><a href="index.html">Home</a> · <a href="browse.html">Explore</a> ·
+        <a href="browse.html?view=categories">Categories</a> · <a href="about.html">About</a> ·
+        <a href="about.html?p=contact">Contact</a></p>
+    </div>
+  </noscript>
+
+  <!-- Icon sprite: inlined by tools/sync-sprite.js from images/icons.svg -->
+  <!-- fw:sprite:start -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <!-- Findwebs icon sprite — one outline set, 24px grid, 1.75 stroke,
+       currentColor, round caps and joins. Inlined into each page by
+       tools/sync-sprite.js. Add an icon here, then run that script. -->
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></g></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.8 8.8 0 1 0 11.1 11.1Z"/></g></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></g></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></g></symbol>
+  <symbol id="i-external-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14.5V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.5"/></g></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h14M13 6.5l5.5 5.5-5.5 5.5"/></g></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 5.5 16 12l-6.5 6.5"/></g></symbol>
+  <symbol id="i-slash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 9.5 19.5"/></g></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3.5 12.7 8.3 17.5 10l-4.8 1.7L11 16.5 9.3 11.7 4.5 10l4.8-1.7Z"/><path d="M18 15.2l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8Z"/></g></symbol>
+  <symbol id="i-graduation-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 5.2l9 4.3-9 4.3Z"/><path d="M7.2 11.6v4.6c0 1.4 2.1 2.5 4.8 2.5s4.8-1.1 4.8-2.5v-4.6"/><path d="M20.6 10.2v4.4"/></g></symbol>
+  <symbol id="i-list-checks" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m3 7 1.8 1.8L8.5 5"/><path d="m3 17 1.8 1.8L8.5 15"/><path d="M12.5 6.5h8.5M12.5 12h8.5M12.5 17.5h8.5"/></g></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.6A1.6 1.6 0 0 1 10.6 4h2.8A1.6 1.6 0 0 1 15 5.6V7"/><path d="M3 12.5h18"/></g></symbol>
+  <symbol id="i-pen-tool" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 18.5 6.5-6.5 3 3-6.5 6.5Z"/><path d="M18.5 12 17 4.6 2 2l2.6 15L12 18.5Z"/><path d="m2 2 7.6 7.6"/><circle cx="11.4" cy="11.4" r="1.9"/></g></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 17.5 20.5 12l-5-5.5"/><path d="M8.5 6.5 3.5 12l5 5.5"/></g></symbol>
+  <symbol id="i-play-circle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10.2 8.6 15.8 12l-5.6 3.4Z"/></g></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6.5" width="18" height="12.5" rx="2.5"/><path d="M3 10.5h18"/><path d="M16.2 14.8h1.3"/></g></symbol>
+  <symbol id="i-shopping-bag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3 3.5 6.6v12.9a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2V6.6L17.8 3Z"/><path d="M3.5 6.6h17"/><path d="M15.8 10a3.8 3.8 0 0 1-7.6 0"/></g></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 20.5v-1.8a4 4 0 0 0-4-4h-4a4 4 0 0 0-4 4v1.8"/><circle cx="9.5" cy="7.5" r="3.6"/><path d="M20.5 20.5v-1.8a4 4 0 0 0-3-3.9"/><path d="M15.5 4.1a4 4 0 0 1 0 6.9"/></g></symbol>
+  <symbol id="i-newspaper" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.2"/><path d="M7 9.2h5.5"/><path d="M7 12.8h10M7 16h7.5"/><path d="M16.5 9.2H17"/></g></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.9 6.6a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.6-3.6a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9Z"/></g></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3.5 7.5 12 12l8.5-4.5Z"/><path d="M4.8 12 12 15.8l7.2-3.8"/><path d="M4.8 16.4 12 20.2l7.2-3.8"/></g></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.8 2.5 5 5.5.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.5-.8Z"/></g></symbol>
+</svg>
+<!-- fw:sprite:end -->
+
+  <script>window.FW.ready(function () { window.FW.boot(); });</script>
+</body>
+</html>
