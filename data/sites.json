@@ -356,7 +356,7 @@
     "url": "https://www.youtube.com",
     "description": "Watch and share video from creators around the world.",
     "longDescription": "YouTube is the largest video platform in the world.\n\nIt covers everything from tutorials and documentaries to music and live events.",
-    "logo": "",
+    "logo": "images/sites/7movie.svg",
     "category": "entertainment",
     "tags": [
       "video",
