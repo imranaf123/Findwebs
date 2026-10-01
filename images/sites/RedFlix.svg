@@ -1,1 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- App icon background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" fill="#0A0F1E"/>
+
+  <!-- Solid bright red rounded square -->
+  <rect x="312" y="160" width="400" height="400" rx="92" fill="#EF4444"/>
+
+  <!-- Play triangle -->
+  <path d="M 465 280 L 465 440 L 605 360 Z" fill="#FFFFFF"/>
+
+  <!-- Wordmark -->
+  <text x="512" y="810" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="116" font-weight="800" letter-spacing="14"
+        fill="#FFFFFF">REDFLIX</text>
+</svg>
 
