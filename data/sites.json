@@ -7,11 +7,7 @@
     "longDescription": "ChatGPT is a conversational AI assistant that answers questions, drafts and edits writing, explains topics, and helps with coding.\n\nIt supports follow-up questions and can be used for brainstorming, summarizing, translating, and planning. A free tier is available, with a paid plan for heavier use.",
     "logo": "",
     "category": "ai-tools",
-    "tags": [
-      "ai",
-      "chat",
-      "assistant"
-    ],
+    "tags": ["ai", "chat", "assistant"],
     "new": false,
     "dateAdded": "2025-06-10",
     "badge": "POPULAR",
@@ -19,12 +15,7 @@
     "trending": true,
     "priority": 2,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "midjourney",
@@ -34,11 +25,7 @@
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
-    "tags": [
-      "ai",
-      "images",
-      "generative"
-    ],
+    "tags": ["ai", "images", "generative"],
     "new": true,
     "dateAdded": "2026-09-15",
     "badge": "NEW",
@@ -46,12 +33,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Subscription"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Subscription" }]
   },
   {
     "slug": "coursera",
@@ -61,11 +43,7 @@
     "longDescription": "Coursera partners with universities and companies to offer online courses, guided projects, and degree programs.\n\nCourses range from introductory material to advanced topics, with many available for free to audit.",
     "logo": "",
     "category": "education",
-    "tags": [
-      "courses",
-      "learning",
-      "certificates"
-    ],
+    "tags": ["courses", "learning", "certificates"],
     "new": false,
     "dateAdded": "2025-03-05",
     "badge": "",
@@ -73,12 +51,7 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free to audit (paid certificates)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free to audit (paid certificates)" }]
   },
   {
     "slug": "khan-academy",
@@ -88,11 +61,7 @@
     "longDescription": "Khan Academy offers free, adaptive learning across math, science, economics, and test prep.\n\nIts practice system tracks progress and focuses on the topics you need the most help with.",
     "logo": "",
     "category": "education",
-    "tags": [
-      "learning",
-      "math",
-      "free"
-    ],
+    "tags": ["learning", "math", "free"],
     "new": false,
     "dateAdded": "2025-02-14",
     "badge": "EDITOR'S CHOICE",
@@ -100,12 +69,7 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "notion",
@@ -115,11 +79,7 @@
     "longDescription": "Notion is a flexible workspace that combines notes, documents, wikis, and databases.\n\nUse it for personal notes, meeting notes, project trackers, or team wikis — blocks and templates let you shape each page however you like.",
     "logo": "",
     "category": "productivity",
-    "tags": [
-      "notes",
-      "docs",
-      "workspace"
-    ],
+    "tags": ["notes", "docs", "workspace"],
     "new": false,
     "dateAdded": "2025-04-22",
     "badge": "FEATURED",
@@ -127,12 +87,7 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "todoist",
@@ -142,11 +97,7 @@
     "longDescription": "",
     "logo": "",
     "category": "productivity",
-    "tags": [
-      "tasks",
-      "to-do",
-      "reminders"
-    ],
+    "tags": ["tasks", "to-do", "reminders"],
     "new": false,
     "dateAdded": "2025-05-01",
     "badge": "",
@@ -154,12 +105,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "linkedin",
@@ -169,11 +115,7 @@
     "longDescription": "",
     "logo": "",
     "category": "productivity",
-    "tags": [
-      "network",
-      "careers",
-      "hiring"
-    ],
+    "tags": ["network", "careers", "hiring"],
     "new": false,
     "dateAdded": "2025-01-20",
     "badge": "",
@@ -181,12 +123,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (premium available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
   },
   {
     "slug": "hubspot",
@@ -196,11 +133,7 @@
     "longDescription": "",
     "logo": "",
     "category": "productivity",
-    "tags": [
-      "crm",
-      "marketing",
-      "sales"
-    ],
+    "tags": ["crm", "marketing", "sales"],
     "new": false,
     "dateAdded": "2025-02-28",
     "badge": "",
@@ -208,12 +141,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "figma",
@@ -223,11 +151,7 @@
     "longDescription": "Figma is a collaborative design tool that runs in the browser.\n\nTeams design interfaces, build prototypes, and hand off specs in the same file. Version history, comments, and shared design systems keep projects in sync.",
     "logo": "",
     "category": "design",
-    "tags": [
-      "design",
-      "ui",
-      "prototyping"
-    ],
+    "tags": ["design", "ui", "prototyping"],
     "new": false,
     "dateAdded": "2025-03-18",
     "badge": "FEATURED",
@@ -235,12 +159,7 @@
     "trending": false,
     "priority": 2,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "canva",
@@ -250,11 +169,7 @@
     "longDescription": "",
     "logo": "",
     "category": "design",
-    "tags": [
-      "design",
-      "graphics",
-      "photo editing"
-    ],
+    "tags": ["design", "graphics", "photo editing"],
     "new": false,
     "dateAdded": "2025-05-30",
     "badge": "POPULAR",
@@ -262,12 +177,7 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "github",
@@ -277,11 +187,7 @@
     "longDescription": "GitHub is where developers host code, review pull requests, track issues, and automate workflows.\n\nIt is the central home for open-source projects and team development.",
     "logo": "",
     "category": "development",
-    "tags": [
-      "code",
-      "git",
-      "hosting"
-    ],
+    "tags": ["code", "git", "hosting"],
     "new": false,
     "dateAdded": "2025-01-08",
     "badge": "EDITOR'S CHOICE",
@@ -289,12 +195,7 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
   },
   {
     "slug": "stack-overflow",
@@ -304,11 +205,7 @@
     "longDescription": "",
     "logo": "",
     "category": "development",
-    "tags": [
-      "code",
-      "q-and-a",
-      "help"
-    ],
+    "tags": ["code", "q-and-a", "help"],
     "new": false,
     "dateAdded": "2025-04-02",
     "badge": "",
@@ -316,12 +213,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "cinezo",
@@ -331,24 +223,15 @@
     "longDescription": "",
     "logo": "images/sites/Cinezo.svg",
     "category": "entertainment",
-    "tags": [
-      "streaming",
-      "movies",
-      "tv"
-    ],
+    "tags": ["streaming", "movies", "tv"],
     "new": true,
     "dateAdded": "2025-06-12",
-    "badge": "new",
+    "badge": "NEW",
     "featured": false,
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "youtube",
@@ -356,13 +239,9 @@
     "url": "https://www.youtube.com",
     "description": "Watch and share video from creators around the world.",
     "longDescription": "YouTube is the largest video platform in the world.\n\nIt covers everything from tutorials and documentaries to music and live events.",
-    "logo": "images/sites/7movie.svg",
+    "logo": "",
     "category": "entertainment",
-    "tags": [
-      "video",
-      "streaming",
-      "creators"
-    ],
+    "tags": ["video", "streaming", "creators"],
     "new": false,
     "dateAdded": "2025-01-03",
     "badge": "",
@@ -370,12 +249,7 @@
     "trending": false,
     "priority": 2,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (premium available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
   },
   {
     "slug": "stripe",
@@ -385,11 +259,7 @@
     "longDescription": "",
     "logo": "",
     "category": "development",
-    "tags": [
-      "payments",
-      "billing",
-      "api"
-    ],
+    "tags": ["payments", "billing", "api"],
     "new": false,
     "dateAdded": "2025-02-10",
     "badge": "",
@@ -397,12 +267,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "No monthly fee (per transaction)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "No monthly fee (per transaction)" }]
   },
   {
     "slug": "ynab",
@@ -412,11 +277,7 @@
     "longDescription": "",
     "logo": "",
     "category": "productivity",
-    "tags": [
-      "budget",
-      "money",
-      "planning"
-    ],
+    "tags": ["budget", "money", "planning"],
     "new": true,
     "dateAdded": "2026-08-20",
     "badge": "",
@@ -424,12 +285,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Subscription (free trial)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Subscription (free trial)" }]
   },
   {
     "slug": "amazon",
@@ -439,11 +295,7 @@
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
-    "tags": [
-      "store",
-      "marketplace",
-      "retail"
-    ],
+    "tags": ["store", "marketplace", "retail"],
     "new": false,
     "dateAdded": "2025-01-15",
     "badge": "POPULAR",
@@ -451,12 +303,7 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (optional Prime membership)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (optional Prime membership)" }]
   },
   {
     "slug": "etsy",
@@ -466,11 +313,7 @@
     "longDescription": "",
     "logo": "",
     "category": "design",
-    "tags": [
-      "handmade",
-      "marketplace",
-      "craft"
-    ],
+    "tags": ["handmade", "marketplace", "craft"],
     "new": true,
     "dateAdded": "2026-07-18",
     "badge": "",
@@ -478,12 +321,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free to browse"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free to browse" }]
   },
   {
     "slug": "x-twitter",
@@ -493,11 +331,7 @@
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
-    "tags": [
-      "social",
-      "news",
-      "community"
-    ],
+    "tags": ["social", "news", "community"],
     "new": false,
     "dateAdded": "2025-02-02",
     "badge": "",
@@ -505,12 +339,7 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (premium available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
   },
   {
     "slug": "reddit",
@@ -520,11 +349,7 @@
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
-    "tags": [
-      "community",
-      "forums",
-      "discussion"
-    ],
+    "tags": ["community", "forums", "discussion"],
     "new": false,
     "dateAdded": "2025-03-25",
     "badge": "",
@@ -532,12 +357,7 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "bbc-news",
@@ -547,11 +367,7 @@
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
-    "tags": [
-      "news",
-      "world",
-      "journalism"
-    ],
+    "tags": ["news", "world", "journalism"],
     "new": false,
     "dateAdded": "2025-01-28",
     "badge": "EDITOR'S CHOICE",
@@ -559,12 +375,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "reuters",
@@ -574,11 +385,7 @@
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
-    "tags": [
-      "news",
-      "business",
-      "markets"
-    ],
+    "tags": ["news", "business", "markets"],
     "new": true,
     "dateAdded": "2026-09-02",
     "badge": "NEW",
@@ -586,12 +393,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (subscription content)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (subscription content)" }]
   },
   {
     "slug": "google-translate",
@@ -601,11 +403,7 @@
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
-    "tags": [
-      "translate",
-      "languages",
-      "text"
-    ],
+    "tags": ["translate", "languages", "text"],
     "new": false,
     "dateAdded": "2025-04-15",
     "badge": "",
@@ -613,12 +411,7 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free" }]
   },
   {
     "slug": "smallpdf",
@@ -628,11 +421,7 @@
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
-    "tags": [
-      "pdf",
-      "convert",
-      "tools"
-    ],
+    "tags": ["pdf", "convert", "tools"],
     "new": true,
     "dateAdded": "2026-08-05",
     "badge": "",
@@ -640,11 +429,456 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [
-      {
-        "label": "Pricing",
-        "value": "Free (paid plans available)"
-      }
-    ]
+    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+  },
+  {
+    "slug": "flixhub",
+    "name": "Flixhub",
+    "url": "https://flixhub.studio",
+    "description": "Streaming site for movies and TV shows with genre browsing.",
+    "longDescription": "Flixhub is a streaming site for movies and TV shows with a fast, uncluttered interface.\n\nBrowse by genre, year, or popularity, and start playback in one click.",
+    "logo": "images/sites/Flixhub.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-07-04",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "thugtv",
+    "name": "ThugTV",
+    "url": "https://thugtv.online",
+    "description": "Movies and series organized by category with a quick search.",
+    "longDescription": "ThugTV offers movies and series across a wide range of genres.\n\nSearch is quick, the player loads fast, and content is organized by category.",
+    "logo": "images/sites/ThugTV.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-07-19",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "1tube",
+    "name": "1Tube",
+    "url": "https://1tube.org",
+    "description": "Streaming site for films and series with subtitle support.",
+    "longDescription": "",
+    "logo": "images/sites/1Tube.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "subtitles"],
+    "new": false,
+    "dateAdded": "2025-08-02",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "redflix",
+    "name": "RedFlix",
+    "url": "https://redflix.club",
+    "description": "Movie and TV streaming with a wide genre catalog.",
+    "longDescription": "",
+    "logo": "images/sites/RedFlix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-08-16",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "1shows",
+    "name": "1Shows",
+    "url": "https://1shows.org",
+    "description": "TV-focused streaming site with episode and season lists.",
+    "longDescription": "1Shows is built around TV series, with episode lists and season tracking.\n\nMovies are also available, and the player supports subtitles in multiple languages.",
+    "logo": "images/sites/1Shows.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "tv", "episodes"],
+    "new": false,
+    "dateAdded": "2025-08-29",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "1flex",
+    "name": "1Flex",
+    "url": "https://1flex.org",
+    "description": "Streaming site for movies and series in HD.",
+    "longDescription": "",
+    "logo": "images/sites/1Flex.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "hd"],
+    "new": false,
+    "dateAdded": "2025-09-07",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "nippleflix",
+    "name": "Nippleflix",
+    "url": "https://nippleflix.org",
+    "description": "Movie and series streaming with a simple grid layout.",
+    "longDescription": "",
+    "logo": "images/sites/Nippleflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-09-21",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "pantyflix",
+    "name": "Pantyflix",
+    "url": "https://pantyflix.org",
+    "description": "Film and series streaming organized by genre.",
+    "longDescription": "",
+    "logo": "images/sites/Pantyflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "genres"],
+    "new": false,
+    "dateAdded": "2025-10-03",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "shuttle-tv",
+    "name": "Shuttle TV",
+    "url": "https://shuttletv.su",
+    "description": "Live channels and on-demand movies in one place.",
+    "longDescription": "Shuttle TV combines live channels with an on-demand library of movies and shows.\n\nIt is a good pick if you want scheduled TV and streaming in the same place.",
+    "logo": "images/sites/ShuttleTV.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "live tv", "movies"],
+    "new": false,
+    "dateAdded": "2025-10-18",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "flyflix",
+    "name": "Flyflix",
+    "url": "https://flyflix.net",
+    "description": "Movies and TV shows with fast loading and search.",
+    "longDescription": "",
+    "logo": "images/sites/Flyflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-11-01",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "youshows",
+    "name": "YouShows",
+    "url": "https://youshows.org",
+    "description": "Series and film streaming with a modern player.",
+    "longDescription": "",
+    "logo": "images/sites/YouShows.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "tv", "movies"],
+    "new": true,
+    "dateAdded": "2026-09-14",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "prime-movies",
+    "name": "Prime Movies",
+    "url": "https://primeshows.org",
+    "description": "Movies and shows browsable by genre and year.",
+    "longDescription": "",
+    "logo": "images/sites/PrimeMovies.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2025-11-16",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "stigstream",
+    "name": "Stigstream",
+    "url": "https://stigstream.ru",
+    "description": "Film and series streaming with multi-language subtitles.",
+    "longDescription": "",
+    "logo": "images/sites/Stigstream.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "subtitles", "movies"],
+    "new": false,
+    "dateAdded": "2025-12-02",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "willow",
+    "name": "Willow",
+    "url": "https://willow.arlen.icu",
+    "description": "Minimal movie and TV streaming site.",
+    "longDescription": "",
+    "logo": "images/sites/Willow.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "minimal"],
+    "new": false,
+    "dateAdded": "2025-12-20",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "vuflix",
+    "name": "Vuflix",
+    "url": "https://vuflix.co",
+    "description": "Movies and series with a lightweight player.",
+    "longDescription": "",
+    "logo": "images/sites/Vuflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": false,
+    "dateAdded": "2026-01-08",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "7reels",
+    "name": "7Reels",
+    "url": "https://7reels.cc",
+    "description": "Movies and shows with trending and popular sections.",
+    "longDescription": "7Reels groups movies and shows into trending, popular, and genre sections.\n\nIt is useful for discovering something new rather than searching for a specific title.",
+    "logo": "images/sites/7Reels.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "discovery"],
+    "new": false,
+    "dateAdded": "2026-01-24",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "anicine",
+    "name": "Anicine",
+    "url": "https://anicine.xyz",
+    "description": "Anime and movie streaming with subtitle options.",
+    "longDescription": "",
+    "logo": "images/sites/Anicine.svg",
+    "category": "entertainment",
+    "tags": ["anime", "streaming", "subtitles"],
+    "new": false,
+    "dateAdded": "2026-02-11",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "cinehd",
+    "name": "CineHD",
+    "url": "https://cinehd.vc",
+    "description": "HD movie and TV series streaming.",
+    "longDescription": "CineHD focuses on higher-quality streams for movies and TV shows.\n\nThe library covers recent releases and older titles, with subtitle support on most entries.",
+    "logo": "images/sites/CineHD.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "hd", "movies"],
+    "new": false,
+    "dateAdded": "2026-02-27",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "allflix",
+    "name": "AllFlix",
+    "url": "https://allflix.org",
+    "description": "Large movie and TV catalog sorted by category and year.",
+    "longDescription": "AllFlix hosts a large catalog of movies and TV series across many genres.\n\nContent is sorted by category, year, and rating, making it easier to browse.",
+    "logo": "images/sites/AllFlix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "catalog"],
+    "new": false,
+    "dateAdded": "2026-03-15",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "netshows",
+    "name": "Netshows",
+    "url": "https://netshows.xyz",
+    "description": "TV series and film streaming with episode lists.",
+    "longDescription": "",
+    "logo": "images/sites/Netshows.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "tv", "episodes"],
+    "new": false,
+    "dateAdded": "2026-03-30",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "bingr-one",
+    "name": "Bingr One",
+    "url": "https://bingr.one",
+    "description": "Movie and show streaming with a simple search.",
+    "longDescription": "",
+    "logo": "images/sites/BingrOne.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "search"],
+    "new": false,
+    "dateAdded": "2026-04-12",
+    "badge": "",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "toflix",
+    "name": "Toflix",
+    "url": "https://toflix.co",
+    "description": "Movie and series streaming with a clean interface.",
+    "longDescription": "",
+    "logo": "images/sites/Toflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": true,
+    "dateAdded": "2026-09-19",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "chillflix",
+    "name": "Chillflix",
+    "url": "https://chillflix.lol",
+    "description": "Film and show streaming with a relaxed layout.",
+    "longDescription": "",
+    "logo": "images/sites/Chillflix.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "tv"],
+    "new": true,
+    "dateAdded": "2026-09-23",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "streamr",
+    "name": "Streamr",
+    "url": "https://streamr.dpdns.org",
+    "description": "Lightweight movie and TV streaming with fast search.",
+    "longDescription": "Streamr is a lightweight streaming site for movies and TV shows.\n\nSearch and playback are fast, and the interface stays out of the way while you browse.",
+    "logo": "images/sites/Streamr.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "fast"],
+    "new": true,
+    "dateAdded": "2026-09-26",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
+  },
+  {
+    "slug": "cinex",
+    "name": "Cinex",
+    "url": "https://cinex.lol",
+    "description": "Movie and series streaming with genre browsing.",
+    "longDescription": "",
+    "logo": "images/sites/Cinex.svg",
+    "category": "entertainment",
+    "tags": ["streaming", "movies", "genres"],
+    "new": true,
+    "dateAdded": "2026-09-29",
+    "badge": "NEW",
+    "featured": false,
+    "trending": false,
+    "priority": 0,
+    "rating": null,
+    "info": [{ "label": "Pricing", "value": "Free" }]
   }
 ]
