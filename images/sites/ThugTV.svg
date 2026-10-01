@@ -1,4 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#3B82F6"/></linearGradient></defs>
-  <text x="130" y="40" text-anchor="middle" dominant-baseline="central" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="30" fill="url(#g)">FLIXHUB</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <!-- Top half: rounded square with gradient -->
+  <rect x="146" y="40" width="220" height="220" rx="52" fill="url(#grad)"/>
+  <!-- Play button triangle -->
+  <path d="M 236 116 L 236 184 L 292 150 Z" fill="#FFFFFF"/>
+  <!-- Bottom half: wordmark -->
+  <text x="256" y="352" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="56" font-weight="800"
+        letter-spacing="10" fill="#FFFFFF">FLIXHUB</text>
 </svg>
