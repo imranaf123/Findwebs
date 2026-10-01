@@ -3,7 +3,7 @@
     "slug": "chatgpt",
     "name": "ChatGPT",
     "url": "https://chatgpt.com",
-    "description": "AI chat assistant for questions, writing, coding, and brainstorming.",
+    "description": "Conversational AI assistant for questions, writing, coding, and brainstorming.",
     "longDescription": "ChatGPT is a conversational AI assistant that answers questions, drafts and edits writing, explains topics, and helps with coding.\n\nIt supports follow-up questions and can be used for brainstorming, summarizing, translating, and planning. A free tier is available, with a paid plan for heavier use.",
     "logo": "",
     "category": "ai-tools",
@@ -15,13 +15,13 @@
     "trending": true,
     "priority": 2,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "midjourney",
     "name": "Midjourney",
     "url": "https://www.midjourney.com",
-    "description": "Generative AI for creating images from text prompts.",
+    "description": "Generative AI tool that creates images from text prompts.",
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
@@ -39,7 +39,7 @@
     "slug": "coursera",
     "name": "Coursera",
     "url": "https://www.coursera.org",
-    "description": "University courses, professional certificates, and online degrees.",
+    "description": "Online courses, professional certificates, and degree programs from universities and companies.",
     "longDescription": "Coursera partners with universities and companies to offer online courses, guided projects, and degree programs.\n\nCourses range from introductory material to advanced topics, with many available for free to audit.",
     "logo": "",
     "category": "education",
@@ -51,13 +51,13 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free to audit (paid certificates)" }]
+    "info": [{ "label": "Pricing", "value": "Fr to audit (paid certificates)" }]
   },
   {
     "slug": "khan-academy",
     "name": "Khan Academy",
     "url": "https://www.khanacademy.org",
-    "description": "Free lessons and practice in math, science, and more for everyone.",
+    "description": "Free lessons and practice exercises in math, science, economics, and test prep.",
     "longDescription": "Khan Academy offers free, adaptive learning across math, science, economics, and test prep.\n\nIts practice system tracks progress and focuses on the topics you need the most help with.",
     "logo": "",
     "category": "education",
@@ -69,13 +69,13 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "notion",
     "name": "Notion",
     "url": "https://www.notion.so",
-    "description": "All-in-one workspace for notes, docs, wikis, and project tracking.",
+    "description": "Workspace combining notes, documents, wikis, and databases in one place.",
     "longDescription": "Notion is a flexible workspace that combines notes, documents, wikis, and databases.\n\nUse it for personal notes, meeting notes, project trackers, or team wikis — blocks and templates let you shape each page however you like.",
     "logo": "",
     "category": "productivity",
@@ -87,13 +87,13 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "todoist",
     "name": "Todoist",
     "url": "https://todoist.com",
-    "description": "Simple, powerful task manager for personal and team to-dos.",
+    "description": "Task manager for personal and team to-do lists, with reminders and project grouping.",
     "longDescription": "",
     "logo": "",
     "category": "productivity",
@@ -105,13 +105,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "linkedin",
     "name": "LinkedIn",
     "url": "https://www.linkedin.com",
-    "description": "Professional network for careers, hiring, and industry news.",
+    "description": "Professional networking platform for careers, hiring, and industry updates.",
     "longDescription": "",
     "logo": "",
     "category": "productivity",
@@ -123,13 +123,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (premium available)" }]
   },
   {
     "slug": "hubspot",
     "name": "HubSpot",
     "url": "https://www.hubspot.com",
-    "description": "CRM and marketing software to grow and manage your business.",
+    "description": "CRM and marketing platform with tools for sales, email, and customer management.",
     "longDescription": "",
     "logo": "",
     "category": "productivity",
@@ -141,13 +141,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "figma",
     "name": "Figma",
     "url": "https://www.figma.com",
-    "description": "Collaborative interface design and prototyping in the browser.",
+    "description": "Browser-based interface design and prototyping tool with real-time collaboration.",
     "longDescription": "Figma is a collaborative design tool that runs in the browser.\n\nTeams design interfaces, build prototypes, and hand off specs in the same file. Version history, comments, and shared design systems keep projects in sync.",
     "logo": "",
     "category": "design",
@@ -159,13 +159,13 @@
     "trending": false,
     "priority": 2,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "canva",
     "name": "Canva",
     "url": "https://www.canva.com",
-    "description": "Easy graphic design and photo editing for posts, decks, and more.",
+    "description": "Graphic design tool with templates for social posts, presentations, and documents.",
     "longDescription": "",
     "logo": "",
     "category": "design",
@@ -177,13 +177,13 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "github",
     "name": "GitHub",
     "url": "https://github.com",
-    "description": "Code hosting, reviews, issues, and collaboration for developers.",
+    "description": "Code hosting platform with repositories, pull requests, issues, and workflow tools.",
     "longDescription": "GitHub is where developers host code, review pull requests, track issues, and automate workflows.\n\nIt is the central home for open-source projects and team development.",
     "logo": "",
     "category": "development",
@@ -195,13 +195,13 @@
     "trending": false,
     "priority": 1,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "stack-overflow",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com",
-    "description": "Q&A community where developers answer technical questions.",
+    "description": "Question-and-answer community for programming and technical topics.",
     "longDescription": "",
     "logo": "",
     "category": "development",
@@ -213,13 +213,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "cinezo",
     "name": "Cinezo",
     "url": "https://cinezo.st",
-    "description": "Stream films, series, and documentaries on any screen.",
+    "description": "An entertainment website featuring movie, series, and documentary-related content.",
     "longDescription": "",
     "logo": "images/sites/Cinezo.svg",
     "category": "entertainment",
@@ -231,13 +231,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "youtube",
     "name": "YouTube",
     "url": "https://www.youtube.com",
-    "description": "Watch and share video from creators around the world.",
+    "description": "Video-sharing platform with content from creators, publishers, and media organizations.",
     "longDescription": "YouTube is the largest video platform in the world.\n\nIt covers everything from tutorials and documentaries to music and live events.",
     "logo": "",
     "category": "entertainment",
@@ -249,13 +249,13 @@
     "trending": false,
     "priority": 2,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (premium available)" }]
   },
   {
     "slug": "stripe",
     "name": "Stripe",
     "url": "https://stripe.com",
-    "description": "Payments infrastructure for internet businesses.",
+    "description": "Payments platform and API for accepting payments and managing billing online.",
     "longDescription": "",
     "logo": "",
     "category": "development",
@@ -273,7 +273,7 @@
     "slug": "ynab",
     "name": "YNAB",
     "url": "https://www.ynab.com",
-    "description": "Budgeting app built on a simple rule: give every dollar a job.",
+    "description": "Budgeting app built around the principle of assigning every dollar to a category.",
     "longDescription": "",
     "logo": "",
     "category": "productivity",
@@ -291,7 +291,7 @@
     "slug": "amazon",
     "name": "Amazon",
     "url": "https://www.amazon.com",
-    "description": "Online store for almost everything, from electronics to books.",
+    "description": "Online marketplace offering a broad range of products including electronics, books, and household goods.",
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
@@ -303,13 +303,13 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (optional Prime membership)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (optional Prime membership)" }]
   },
   {
     "slug": "etsy",
     "name": "Etsy",
     "url": "https://www.etsy.com",
-    "description": "Marketplace for handmade, vintage, and custom goods.",
+    "description": "Marketplace for handmade, vintage, and custom goods sold by independent sellers.",
     "longDescription": "",
     "logo": "",
     "category": "design",
@@ -321,13 +321,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free to browse" }]
+    "info": [{ "label": "Pricing", "value": "Fr to browse" }]
   },
   {
     "slug": "x-twitter",
     "name": "X (Twitter)",
     "url": "https://x.com",
-    "description": "Post, follow, and discover public conversation in real time.",
+    "description": "Social platform for posting short messages, following accounts, and reading public conversation.",
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
@@ -339,13 +339,13 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (premium available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (premium available)" }]
   },
   {
     "slug": "reddit",
     "name": "Reddit",
     "url": "https://www.reddit.com",
-    "description": "Forums and communities for almost every topic on the internet.",
+    "description": "Network of community forums where users discuss a wide range of topics.",
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
@@ -357,13 +357,13 @@
     "trending": true,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "bbc-news",
     "name": "BBC News",
     "url": "https://www.bbc.com/news",
-    "description": "World and UK news with video, audio, and live coverage.",
+    "description": "News website covering world events, with articles, video, and live updates.",
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
@@ -375,13 +375,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "reuters",
     "name": "Reuters",
     "url": "https://www.reuters.com",
-    "description": "Global news, markets, and business reporting.",
+    "description": "International news agency covering world events, business, and financial markets.",
     "longDescription": "",
     "logo": "",
     "category": "entertainment",
@@ -393,13 +393,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (subscription content)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (subscription content)" }]
   },
   {
     "slug": "google-translate",
     "name": "Google Translate",
     "url": "https://translate.google.com",
-    "description": "Translate text between 100+ languages instantly.",
+    "description": "Translation tool supporting text and documents across a large number of languages.",
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
@@ -411,13 +411,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "smallpdf",
     "name": "SmallPDF",
     "url": "https://smallpdf.com",
-    "description": "Online tools to merge, compress, and convert PDF files.",
+    "description": "Online tools for merging, compressing, and converting PDF files.",
     "longDescription": "",
     "logo": "",
     "category": "ai-tools",
@@ -429,14 +429,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free (paid plans available)" }]
+    "info": [{ "label": "Pricing", "value": "Fr (paid plans available)" }]
   },
   {
     "slug": "flixhub",
     "name": "Flixhub",
     "url": "https://flixhub.studio",
-    "description": "Streaming site for movies and TV shows with genre browsing.",
-    "longDescription": "Flixhub is a streaming site for movies and TV shows with a fast, uncluttered interface.\n\nBrowse by genre, year, or popularity, and start playback in one click.",
+    "description": "An entertainment website featuring movie and TV content, with browsing and search features for discovering titles.",
+    "longDescription": "Flixhub is an entertainment website centered on movies and TV shows, with a browsing interface organized by category.",
     "logo": "images/sites/Flixhub.svg",
     "category": "entertainment",
     "tags": ["streaming", "movies", "tv"],
@@ -447,14 +447,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "thugtv",
     "name": "ThugTV",
     "url": "https://thugtv.online",
-    "description": "Movies and series organized by category with a quick search.",
-    "longDescription": "ThugTV offers movies and series across a wide range of genres.\n\nSearch is quick, the player loads fast, and content is organized by category.",
+    "description": "An entertainment website listing movies and series by category, with a search feature.",
+    "longDescription": "ThugTV presents movie and series listings across a range of genres, with content sorted into categories and a search option for finding titles.",
     "logo": "images/sites/ThugTV.svg",
     "category": "entertainment",
     "tags": ["streaming", "movies", "tv"],
@@ -465,13 +465,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "1tube",
     "name": "1Tube",
     "url": "https://1tube.org",
-    "description": "Streaming site for films and series with subtitle support.",
+    "description": "An entertainment website featuring film and series content with subtitle information.",
     "longDescription": "",
     "logo": "images/sites/1Tube.svg",
     "category": "entertainment",
@@ -483,13 +483,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "redflix",
     "name": "RedFlix",
     "url": "https://redflix.club",
-    "description": "Movie and TV streaming with a wide genre catalog.",
+    "description": "An entertainment website with movie and TV listings organized across multiple genres.",
     "longDescription": "",
     "logo": "images/sites/RedFlix.svg",
     "category": "entertainment",
@@ -501,14 +501,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "1shows",
     "name": "1Shows",
     "url": "https://1shows.org",
-    "description": "TV-focused streaming site with episode and season lists.",
-    "longDescription": "1Shows is built around TV series, with episode lists and season tracking.\n\nMovies are also available, and the player supports subtitles in multiple languages.",
+    "description": "An entertainment website focused on TV series, with episode and season listings.",
+    "longDescription": "1Shows is oriented around TV series, presenting episode and season information. Movie listings are also included.",
     "logo": "images/sites/1Shows.svg",
     "category": "entertainment",
     "tags": ["streaming", "tv", "episodes"],
@@ -519,13 +519,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "1flex",
     "name": "1Flex",
     "url": "https://1flex.org",
-    "description": "Streaming site for movies and series in HD.",
+    "description": "An entertainment website featuring movie and series content.",
     "longDescription": "",
     "logo": "images/sites/1Flex.svg",
     "category": "entertainment",
@@ -537,13 +537,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "nippleflix",
     "name": "Nippleflix",
     "url": "https://nippleflix.org",
-    "description": "Movie and series streaming with a simple grid layout.",
+    "description": "An entertainment website presenting movie and TV content in a grid layout.",
     "longDescription": "",
     "logo": "images/sites/Nippleflix.svg",
     "category": "entertainment",
@@ -555,13 +555,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "pantyflix",
     "name": "Pantyflix",
     "url": "https://pantyflix.org",
-    "description": "Film and series streaming organized by genre.",
+    "description": "An entertainment website with film and series content organized by genre.",
     "longDescription": "",
     "logo": "images/sites/Pantyflix.svg",
     "category": "entertainment",
@@ -573,14 +573,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "shuttle-tv",
     "name": "Shuttle TV",
     "url": "https://shuttletv.su",
-    "description": "Live channels and on-demand movies in one place.",
-    "longDescription": "Shuttle TV combines live channels with an on-demand library of movies and shows.\n\nIt is a good pick if you want scheduled TV and streaming in the same place.",
+    "description": "An entertainment website combining live channel listings with an on-demand movie and TV catalog.",
+    "longDescription": "Shuttle TV presents live channel information alongside an on-demand catalog of movies and shows, grouping both types of content in one interface.",
     "logo": "images/sites/ShuttleTV.svg",
     "category": "entertainment",
     "tags": ["streaming", "live tv", "movies"],
@@ -591,13 +591,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "flyflix",
     "name": "Flyflix",
     "url": "https://flyflix.net",
-    "description": "Movies and TV shows with fast loading and search.",
+    "description": "An entertainment website featuring movies and TV shows with a search feature.",
     "longDescription": "",
     "logo": "images/sites/Flyflix.svg",
     "category": "entertainment",
@@ -609,13 +609,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "youshows",
     "name": "YouShows",
     "url": "https://youshows.org",
-    "description": "Series and film streaming with a modern player.",
+    "description": "An entertainment website with TV series and movie listings and a built-in player.",
     "longDescription": "",
     "logo": "images/sites/YouShows.svg",
     "category": "entertainment",
@@ -627,13 +627,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "prime-movies",
     "name": "Prime Movies",
     "url": "https://primeshows.org",
-    "description": "Movies and shows browsable by genre and year.",
+    "description": "An entertainment website where movies and shows can be browsed by genre and year.",
     "longDescription": "",
     "logo": "images/sites/PrimeMovies.svg",
     "category": "entertainment",
@@ -645,13 +645,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "stigstream",
     "name": "Stigstream",
     "url": "https://stigstream.ru",
-    "description": "Film and series streaming with multi-language subtitles.",
+    "description": "An entertainment website featuring film and TV series content with multi-language subtitle options.",
     "longDescription": "",
     "logo": "images/sites/Stigstream.svg",
     "category": "entertainment",
@@ -663,13 +663,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "willow",
     "name": "Willow",
     "url": "https://willow.arlen.icu",
-    "description": "Minimal movie and TV streaming site.",
+    "description": "A minimalist entertainment website featuring movie and TV content.",
     "longDescription": "",
     "logo": "images/sites/Willow.svg",
     "category": "entertainment",
@@ -681,13 +681,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "vuflix",
     "name": "Vuflix",
     "url": "https://vuflix.co",
-    "description": "Movies and series with a lightweight player.",
+    "description": "An entertainment website with movie and TV series listings and a lightweight player interface.",
     "longDescription": "",
     "logo": "images/sites/Vuflix.svg",
     "category": "entertainment",
@@ -699,14 +699,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "7reels",
     "name": "7Reels",
     "url": "https://7reels.cc",
-    "description": "Movies and shows with trending and popular sections.",
-    "longDescription": "7Reels groups movies and shows into trending, popular, and genre sections.\n\nIt is useful for discovering something new rather than searching for a specific title.",
+    "description": "An entertainment website grouping movies and shows into trending, popular, and genre sections.",
+    "longDescription": "7Reels organizes movies and shows into trending, popular, and genre-based sections, oriented toward browsing and discovering titles.",
     "logo": "images/sites/7Reels.svg",
     "category": "entertainment",
     "tags": ["streaming", "movies", "discovery"],
@@ -717,13 +717,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "anicine",
     "name": "Anicine",
     "url": "https://anicine.xyz",
-    "description": "Anime and movie streaming with subtitle options.",
+    "description": "An entertainment website featuring anime and movie content with subtitle options.",
     "longDescription": "",
     "logo": "images/sites/Anicine.svg",
     "category": "entertainment",
@@ -735,14 +735,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "cinehd",
     "name": "CineHD",
     "url": "https://cinehd.vc",
-    "description": "HD movie and TV series streaming.",
-    "longDescription": "CineHD focuses on higher-quality streams for movies and TV shows.\n\nThe library covers recent releases and older titles, with subtitle support on most entries.",
+    "description": "An entertainment website featuring movie and TV series content, with subtitle information on most titles.",
+    "longDescription": "CineHD centers on movie and TV series content. The catalog includes recent releases as well as older titles, with subtitle information listed for most entries.",
     "logo": "images/sites/CineHD.svg",
     "category": "entertainment",
     "tags": ["streaming", "hd", "movies"],
@@ -753,14 +753,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "allflix",
     "name": "AllFlix",
     "url": "https://allflix.org",
-    "description": "Large movie and TV catalog sorted by category and year.",
-    "longDescription": "AllFlix hosts a large catalog of movies and TV series across many genres.\n\nContent is sorted by category, year, and rating, making it easier to browse.",
+    "description": "An entertainment website with a catalog of movies and TV series sorted by category, year, and rating.",
+    "longDescription": "AllFlix maintains a broad catalog of movies and TV series across many genres, sorted by category, year, and rating to support browsing.",
     "logo": "images/sites/AllFlix.svg",
     "category": "entertainment",
     "tags": ["streaming", "movies", "catalog"],
@@ -771,13 +771,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "netshows",
     "name": "Netshows",
     "url": "https://netshows.xyz",
-    "description": "TV series and film streaming with episode lists.",
+    "description": "An entertainment website featuring TV series and film listings with episode information.",
     "longDescription": "",
     "logo": "images/sites/Netshows.svg",
     "category": "entertainment",
@@ -789,13 +789,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "bingr-one",
     "name": "Bingr One",
     "url": "https://bingr.one",
-    "description": "Movie and show streaming with a simple search.",
+    "description": "An entertainment website featuring movies and shows with a search feature.",
     "longDescription": "",
     "logo": "images/sites/BingrOne.svg",
     "category": "entertainment",
@@ -807,13 +807,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "toflix",
     "name": "Toflix",
     "url": "https://toflix.co",
-    "description": "Movie and series streaming with a clean interface.",
+    "description": "An entertainment website offering movie and TV series browsing.",
     "longDescription": "",
     "logo": "images/sites/Toflix.svg",
     "category": "entertainment",
@@ -825,13 +825,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "chillflix",
     "name": "Chillflix",
     "url": "https://chillflix.lol",
-    "description": "Film and show streaming with a relaxed layout.",
+    "description": "An entertainment website featuring film and TV content with a simple interface.",
     "longDescription": "",
     "logo": "images/sites/Chillflix.svg",
     "category": "entertainment",
@@ -843,14 +843,14 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "streamr",
     "name": "Streamr",
     "url": "https://streamr.dpdns.org",
-    "description": "Lightweight movie and TV streaming with fast search.",
-    "longDescription": "Streamr is a lightweight streaming site for movies and TV shows.\n\nSearch and playback are fast, and the interface stays out of the way while you browse.",
+    "description": "An entertainment website with movie and TV content and a fast search feature.",
+    "longDescription": "Streamr is a lightweight entertainment website for movies and TV shows, oriented around quick search and a minimal browsing interface.",
     "logo": "images/sites/Streamr.svg",
     "category": "entertainment",
     "tags": ["streaming", "movies", "fast"],
@@ -861,13 +861,13 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   },
   {
     "slug": "cinex",
     "name": "Cinex",
     "url": "https://cinex.lol",
-    "description": "Movie and series streaming with genre browsing.",
+    "description": "An entertainment website featuring movies and TV series with genre browsing.",
     "longDescription": "",
     "logo": "images/sites/Cinex.svg",
     "category": "entertainment",
@@ -879,6 +879,6 @@
     "trending": false,
     "priority": 0,
     "rating": null,
-    "info": [{ "label": "Pricing", "value": "Free" }]
+    "info": [{ "label": "Pricing", "value": "Fr" }]
   }
 ]
